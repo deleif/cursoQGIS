@@ -7,8 +7,6 @@ El equipo responsable del proyecto debe seleccionar un tramo para la actuación,
 
 ## Selección de la zona de actuación:
 
-i
-
 - Debe estar en una carretera de cuya titularidad corresponda a la DPZ.
 - No debe afectar a ninguna de las siguientes Figuras de Protección de la Naturaleza, incluyendo su Área de Influencia Socioeconóni:
   - Espacios Naturales Protegidos.
