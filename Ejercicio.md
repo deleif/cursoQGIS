@@ -43,6 +43,11 @@ Para ello, se dispone de la siguiente información:
 - Servicio WFS del Gobierno de Aragón: https://idearagon.aragon.es/Visor2D
 - Servicio WMS de Catastro: https://ovc.catastro.meh.es/Cartografia/WMS/ServidorWMS.aspx
 
+Instituto Geográfico Nacional:
+- Ortofoto PNOA : http://www.ign.es/wms-inspire/pnoa-ma
+- Mapa Topográfico Nacional: http://www.ign.es/wms-inspire/mapa-raster
+- Nombres Geográficos: https://www.ign.es/wms-inspire/ngbe
+  
 ## Fuente de datos demográficos:
 
 - Instituto Naciona de Estadística: https://www.ine.es/jaxiT3/Tabla.htm?t=2907&L=0
