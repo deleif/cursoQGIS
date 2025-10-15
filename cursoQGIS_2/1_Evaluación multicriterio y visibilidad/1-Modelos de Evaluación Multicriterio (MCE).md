@@ -81,26 +81,22 @@ N_i = 1 + 99 * (X_i - X_min) / (X_max - X_min)
 
 #### 1.2.2.3 Normalización relativa (z-score escalado a 1–100)
 
-- Fórmula z-score:  
-Z_i = (X_i - μ) / σ
+- Fórmula z-score. Estandariza los valores según la media y dispersión: 
+
+Zi = (Xi - μ) / σ
+
+Zi​ = Valor normalizado (z-score)
+Xi​ = Valor original
+μ = Es el promedio de todos los 
+σ = Desviación estándar
 
 - Luego se reescala a 1–100:  
-N_i = 1 + 99 * (Z_i - Z_min) / (Z_max - Z_min)
+Ni = 1 + 99 * (Zi - Z_min) / (Zmax - Zmin)
 
 - Útil para datos con distribuciones muy distintas.  
 
 ---
 
-#### 1.2.2.4 Normalización exponencial o logística (ajustada 1–100)
-
-- Ejemplo de exponencial:  
-N_i = 1 + 99 * (1 - exp(-k * X_i))
-
-
-- Resalta valores extremos.  
-- Requiere ajustar **k** según el rango del raster.  
-
----
 
 ### 1.2.3 Comparación de métodos
 
@@ -109,7 +105,7 @@ N_i = 1 + 99 * (1 - exp(-k * X_i))
 | Min-max (1–100)     | Simple, interpretable             | Sensible a outliers                | Factores continuos con rango acotado      |
 | Reclassificación    | Control total por categorías      | Pérdida de detalle                 | Variables cualitativas o discretas        |
 | Z-score escalado    | Comparación estadística robusta   | Complejo, requiere reescalado      | Factores con distribuciones diferentes    |
-| Exponencial/logística | Resalta extremos críticos        | Difícil de parametrizar            | Factores donde los valores altos/bajos son decisivos |
+
 
 ---
 
