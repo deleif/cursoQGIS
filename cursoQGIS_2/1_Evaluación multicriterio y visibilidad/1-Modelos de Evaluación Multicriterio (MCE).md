@@ -109,15 +109,6 @@ Ni = 1 + 99 * (Zi - Z_min) / (Zmax - Zmin)
 
 ---
 
-### 1.2.4 Ejercicio práctico
-
-1. Normalizar pendiente (min–max a 1–100).  
-2. Reclassificar distancia a carreteras (rangos 1–100).  
-3. Escalar un factor usando z-score a 1–100.  
-4. Comparar resultados en el visor de QGIS.  
-
----
-
 ## 1.3 Establecimiento de pesos (ponderación)
 
 ### 1.3.1 Concepto
@@ -149,9 +140,3 @@ Ni = 1 + 99 * (Zi - Z_min) / (Zmax - Zmin)
 
 ---
 
-## 1.4 Resumen y reflexiones
-
-- Escala adoptada: **0 = exclusión, 1–100 = aptitud progresiva**.  
-- La normalización hace comparables los factores.  
-- La ponderación refleja las prioridades del análisis.  
-- Resultado: un mapa de aptitud para toma de decisiones espaciales.  
