@@ -66,6 +66,8 @@ Ejemplo:
 Cuanto mayor el peso, mayor la influencia del factor en el mapa final.
 
 
+
+
 #### Método AHP (Analytic Hierarchy Process)
 - Se basa en **comparaciones pareadas** entre factores: cada par de criterios se evalúa según su importancia relativa (de 1 a 9).  
 - Permite obtener los pesos de forma **justificada y coherente**, en lugar de asignarlos de manera arbitraria.

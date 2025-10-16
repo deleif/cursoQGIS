@@ -52,7 +52,7 @@ Ubicación de un polígono industrial:
 #### 1.2.2.1 Normalización lineal min–max (1–100)
 
 - Fórmula:  
-N_i = 1 + 99 * (X_i - X_min) / (X_max - X_min)
+Ni =  (Xi - Xmin) / (Xmax - Xmin) * 100
 
 - Rango resultante: **1–100**.  
 - Útil en factores continuos.  
@@ -91,7 +91,7 @@ Xi​ = Valor original
 σ = Desviación estándar
 
 - Luego se reescala a 1–100:  
-Ni = 1 + 99 * (Zi - Z_min) / (Zmax - Zmin)
+Ni = (Zi - Zmin) / (Zmax - Zmin) * 100
 
 - Útil para datos con distribuciones muy distintas.  
 

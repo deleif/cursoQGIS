@@ -1,9 +1,3 @@
-## Objetivos específicos
-- Comprender conceptos de visibilidad y horizonte visual.  
-- Aplicar análisis de visibilidad en QGIS.  
-- Evaluar impacto de estructuras o relieves en la visualización de un área.  
-
-
 ## Análisis de visibilidad
 
 El análisis de visibilidad permite determinar qué partes del terreno son visibles desde uno o varios puntos de observación, lo que se conoce como **cuenca visual** o **zona visible**.
@@ -18,10 +12,12 @@ En los modelos **ráster**, la altitud se asigna al centro de cada celda y, por 
 ## Factores
 
 #### Topografía
-Modelo Digital de Elevaciones, que determina los puntos del terreno que quedan ocultos al observador si delante de ellos existen puntos del terreno que están a una altura superior.
+Corresponde al **Modelo Digital de Elevaciones (MDE)**, el cual determina los puntos del terreno que quedan ocultos si delante existen zonas con mayor altitud.  
+Es el factor principal del análisis, ya que define la geometría del terreno.
 
 #### Pantallas
-Elementos que actúan como barreras e impiden la visión de las áreas a observar.
+Son **elementos que actúan como barreras visuales**, impidiendo la visión hacia determinadas áreas.  
+Pueden ser tanto **naturales** (montañas, colinas, vegetación densa) como **artificiales** (edificaciones, muros, estructuras).
 
 #### Altura del observador
 
